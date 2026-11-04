@@ -2,7 +2,7 @@
 function greeter(person) {
     return "Hello, " + person;
 }
-let userName = "Greta Allam";
+let userName = "??????";
 let greeting = document.querySelector('.greeting');
 if (greeting) {
     greeting.textContent = greeter(userName);
