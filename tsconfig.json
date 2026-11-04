@@ -1,0 +1,9 @@
+{
+    "compilerOptions": { // I Don't really know what's going on here I just learned I had to add this to make it not come up as an error on my macbook
+        "strict": true,
+        "forceConsistentCasingInFileNames": true,
+    },
+    "files": [
+        "script.ts"
+    ]
+}
