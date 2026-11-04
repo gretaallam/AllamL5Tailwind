@@ -1,3 +1,3 @@
-# Class 6 Demo
+# L5: Tailwind
 
-This is a demostration of creating a local repo, pushing it to a remote repo, and deploying it via Pages.
+Making a webpage using Tailwind and Typescript
