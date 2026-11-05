@@ -1,3 +1,3 @@
 # L5: Tailwind
 
-Making a webpage using Tailwind and Typescript
+Making a webpage using Tailwind
