@@ -1,6 +1,6 @@
 @import "tailwindcss";
 
 @theme {
-    --color-secondary: navy;
+    --color-secondary: green;
     --color-primary: #dddddd;
 }
