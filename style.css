@@ -203,9 +203,6 @@
   .mt-10 {
     margin-top: calc(var(--spacing) * 10);
   }
-  .mt-16 {
-    margin-top: calc(var(--spacing) * 16);
-  }
   .mb-6 {
     margin-bottom: calc(var(--spacing) * 6);
   }
@@ -271,12 +268,6 @@
   .p-6 {
     padding: calc(var(--spacing) * 6);
   }
-  .p-8 {
-    padding: calc(var(--spacing) * 8);
-  }
-  .p-16 {
-    padding: calc(var(--spacing) * 16);
-  }
   .px-4 {
     padding-inline: calc(var(--spacing) * 4);
   }
@@ -285,12 +276,6 @@
   }
   .px-10 {
     padding-inline: calc(var(--spacing) * 10);
-  }
-  .px-14 {
-    padding-inline: calc(var(--spacing) * 14);
-  }
-  .px-16 {
-    padding-inline: calc(var(--spacing) * 16);
   }
   .py-2 {
     padding-block: calc(var(--spacing) * 2);
@@ -306,12 +291,6 @@
   }
   .pt-0 {
     padding-top: 0px;
-  }
-  .pr-10 {
-    padding-right: calc(var(--spacing) * 10);
-  }
-  .pl-6 {
-    padding-left: calc(var(--spacing) * 6);
   }
   .text-center {
     text-align: center;
@@ -335,10 +314,6 @@
   .text-sm {
     font-size: var(--text-sm);
     line-height: var(--tw-leading, var(--text-sm--line-height));
-  }
-  .leading-relaxed {
-    --tw-leading: var(--leading-relaxed);
-    line-height: var(--leading-relaxed);
   }
   .leading-tight {
     --tw-leading: var(--leading-tight);
@@ -379,23 +354,8 @@
     .md\:grid-cols-2 {
       grid-template-columns: repeat(2, minmax(0, 1fr));
     }
-    .md\:px-8 {
-      padding-inline: calc(var(--spacing) * 8);
-    }
-    .md\:px-12 {
-      padding-inline: calc(var(--spacing) * 12);
-    }
-    .md\:px-14 {
-      padding-inline: calc(var(--spacing) * 14);
-    }
     .md\:px-16 {
       padding-inline: calc(var(--spacing) * 16);
-    }
-    .md\:py-12 {
-      padding-block: calc(var(--spacing) * 12);
-    }
-    .md\:py-14 {
-      padding-block: calc(var(--spacing) * 14);
     }
     .md\:py-16 {
       padding-block: calc(var(--spacing) * 16);
@@ -409,6 +369,15 @@
       line-height: var(--tw-leading, var(--text-7xl--line-height));
     }
   }
+}
+.fadeIn {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 500ms;
+}
+.fadeIn.inView {
+  opacity: 1;
+  transform: translateY(0);
 }
 @property --tw-border-style {
   syntax: "*";

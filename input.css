@@ -5,3 +5,14 @@
     --color-accent2: rgb(122, 14, 63);
     --color-back: rgb(255, 208, 235);
 }
+
+/*Fade in*/
+.fadeIn {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 500ms;
+}
+.fadeIn.inView {
+    opacity: 1;
+    transform: translateY(0);
+}
